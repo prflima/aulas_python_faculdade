@@ -1,0 +1,17 @@
+# Listas em python é estranho de início, devido a tipagem dinâmica,
+# coisas assim podem acontecer
+
+listaMultipla = ['nome1', 1, [1, 'gato']]
+
+print(f"Lista maluca: {listaMultipla}")
+
+# Operando listas
+primeiroItem = listaMultipla[0]
+print(f"O primeiro item da lista é: {primeiroItem}")
+
+# outra excentricidade
+ultimoItem = listaMultipla[-1]
+print(f"O último item da lista é: {ultimoItem}")
+
+# Outras operacoes
+print(f"O tamanhdo da lista é: {listaMultipla.len()}")
