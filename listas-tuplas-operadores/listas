@@ -14,4 +14,9 @@ ultimoItem = listaMultipla[-1]
 print(f"O último item da lista é: {ultimoItem}")
 
 # Outras operacoes
-print(f"O tamanhdo da lista é: {listaMultipla.len()}")
+print(f"O tamanhdo da lista é: {len(listaMultipla)}")
+
+# Alterando o conteúdo das listas
+print(f"Antes de alterar: {listaMultipla}")
+listaMultipla[0] = "Paulo Ricardo"
+print(f"Depois de alterar: {listaMultipla}")
