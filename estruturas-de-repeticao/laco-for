@@ -1,0 +1,14 @@
+acum = 0
+for x in range(1, 100):
+    if x % 2 == 0:
+        acum = acum + x
+
+print(f"a soma de números pares entre 1 e 100 é: {acum}")
+
+# Loops aninhados ou interligados
+list_names = ['Paulo', 'Ricardo', 'Lima']
+
+for name in list_names:
+    for c in name:
+        if c in 'aeiou':
+            print(f"Esta vogal {c} pertence ao nome: {name}")
