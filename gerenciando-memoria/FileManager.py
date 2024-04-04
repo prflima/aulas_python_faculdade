@@ -11,9 +11,10 @@ writeFile("arquivos/teste.txt", ['Hello', 'World'])
 # Acessando o arquivo de texto contido na pasta arquivos chamado teste
 # e exibir seu conteúdo no console
 with open("arquivos/teste.txt", "r") as f:
-    data = f.read()
-    print(data)
+    content = f.read()
     f.close()
+    print(content)
+
 
 # Agora vou adicionar outro texto, sem sobrescrever o anterior hello world
 def addTextEndLine(fileName, text):
@@ -24,9 +25,9 @@ def addTextEndLine(fileName, text):
 addTextEndLine("arquivos/teste.txt", 'Meu nome é Paulo Ricardo')
 
 with open("arquivos/teste.txt", "r") as f:
-    data = f.read()
-    print(data)
+    content = f.read()
     f.close()
+    print(content)
 
 # output
 # Hello
